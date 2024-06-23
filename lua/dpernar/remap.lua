@@ -19,7 +19,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv");
 
 
 -- Rename variable
-vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+vim.keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 
 -- Set script as executable (Linux)

@@ -1,0 +1,4 @@
+-- let mapleader = '\<Space>'
+-- nnoremap <silent> <leader> :<c-u>LeaderGuide '<Space>'<CR>
+-- vnoremap <silent> <leader> :<c-u>LeaderGuideVisual '<Space>'<CR>
+-- vim.keymap.set('n', '<leader>', 
