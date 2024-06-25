@@ -63,9 +63,9 @@ return require('packer').startup(function(use)
 
 	-- Terminal setup
 	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-	require("toggleterm").setup();
+		require("toggleterm").setup();
+	end}
 
-	-- Guid for leader keybindings
+	-- Guide for leader keybindings
 	use { 'spinks/vim-leader-guide' };
-end}
 end)
