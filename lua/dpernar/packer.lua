@@ -68,4 +68,7 @@ return require('packer').startup(function(use)
 
 	-- Guide for leader keybindings
 	use { 'spinks/vim-leader-guide' };
+
+
+	use {'neoclide/coc.nvim', branch = 'release'};
 end)

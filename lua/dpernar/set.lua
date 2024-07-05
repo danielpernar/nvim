@@ -5,6 +5,7 @@ vim.opt.tabstop = 8;
 vim.opt.scrolloff = 8;
 vim.opt.incsearch = true;
 vim.opt.termguicolors = true;
+vim.opt.hlsearch = true;
 
 -- Set powershell as default shell
 local powershell_options = {

@@ -35,7 +35,11 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 -- ? coc#pum#next(1) : v:lua.check_back_space() ? "<TAB>" : coc#refresh()', opts)
 -- vim.keymap.set("i", "<S-TAB>", [[coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"]], opts)
 
-
+-- Delete word using Alt-Backspace
+vim.keymap.set("i", "<M-BS>", "<C-w>");
 
 -- New tab
 vim.keymap.set("n", "<leader>t", vim.cmd.tabnew);
+
+-- Turn off search-highlighting after pressing Esc
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>");
